@@ -1,7 +1,10 @@
 /**
  * WordPress dependencies
  */
-import { __experimentalListView as ListView } from '@wordpress/block-editor';
+import {
+	__experimentalListView as ListView,
+	BlockSettingsDropdown,
+} from '@wordpress/block-editor';
 import { Button } from '@wordpress/components';
 import {
 	useFocusOnMount,
@@ -59,7 +62,7 @@ export default function ListViewSidebar() {
 					focusOnMountRef,
 				] ) }
 			>
-				<ListView />
+				<ListView MoreMenuComponent={ BlockSettingsDropdown } />
 			</div>
 		</div>
 	);
