@@ -62,7 +62,7 @@ export default function ListViewSidebar() {
 					focusOnMountRef,
 				] ) }
 			>
-				<ListView MoreMenuComponent={ BlockSettingsDropdown } />
+				<ListView moreMenuDropdown={ (props) => (<BlockSettingsDropdown {...props} />) } />
 			</div>
 		</div>
 	);
