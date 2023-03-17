@@ -5,6 +5,7 @@
 ### Internal
 
 -   `CustomGradientPicker`: Convert to TypeScript ([#48929](https://github.com/WordPress/gutenberg/pull/48929)).
+-   `GradientPicker`: Convert to TypeScript ([#48316](https://github.com/WordPress/gutenberg/pull/48316)).
 
 ## 23.6.0 (2023-03-15)
 
